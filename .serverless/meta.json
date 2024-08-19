@@ -1,0 +1,59 @@
+{
+  "/Users/edy/Desktop/vite-project": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.11",
+    "isWithinCompose": false,
+    "isCompose": false,
+    "composeOrgName": null,
+    "composeServiceName": null,
+    "servicePath": "/Users/edy/Desktop/vite-project",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "org": "odosli",
+      "component": "website",
+      "name": "vite-project",
+      "app": "test",
+      "inputs": {
+        "src": {
+          "src": "./src",
+          "hook": "npm run build",
+          "dist": "./dist"
+        },
+        "bucketName": "my-vue-starter",
+        "protocol": "https"
+      }
+    },
+    "serviceRawFile": "org: odosli\n# serverless.yml文件\ncomponent: website\nname: vite-project\napp: test\n\ninputs:\n  src:\n    src: ./src\n    # 配置了这个hook每次发布的时候会先build\n    hook: npm run build\n    dist: ./dist\n  bucketName: my-vue-starter\n  protocol: https\n",
+    "command": [
+      "deploy"
+    ],
+    "options": {},
+    "error": {
+      "message": "AWS credentials missing or invalid. Run \"serverless\" to set up AWS credentials, or learn more in our docs: http://slss.io/aws-creds-setup. Original error from AWS: Could not load credentials from any providers",
+      "code": "AWS_CREDENTIALS_MISSING"
+    },
+    "machineId": "4fbda0cd55aa50a5b5672052489acd29",
+    "accessKeyV2": "<REDACTED>",
+    "accessKeyV1": "<REDACTED>",
+    "orgId": "fd1a1b78-619a-4507-8dfc-460258596a0c",
+    "orgName": "odosli",
+    "userId": "R09rncRn9Qmb9b0MqC",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": false,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "userName": "odosli",
+    "subscription": null,
+    "userEmail": "17839228268@163.com",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}

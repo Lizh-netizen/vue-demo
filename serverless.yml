@@ -1,0 +1,14 @@
+org: odosli
+# serverless.yml文件
+component: website
+name: vite-project
+app: test
+
+inputs:
+  src:
+    src: ./src
+    # 配置了这个hook每次发布的时候会先build
+    hook: npm run build
+    dist: ./dist
+  bucketName: my-vue-starter
+  protocol: https
